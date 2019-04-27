@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<input>
+  <header>
+    <dataset id="Content">
+      <item type="Text" id="TvUrl" visualtype="text">
+        <value>rtsp://192.168.2.39/live.sdp</value>
+        <attributes>
+          <attribute id="DisplayName">
+            <value>Stream URL</value>
+          </attribute>
+          <attribute id="Advanced">
+            <value>false</value>
+          </attribute>
+        </attributes>
+      </item>
+      <item type="Text" id="SmartViewDuration" visualtype="text">
+        <value>30</value>
+        <attributes>
+          <attribute id="DisplayName">
+            <value>Smart View Duration in seconds</value>
+          </attribute>
+          <attribute id="Advanced">
+            <value>true</value>
+          </attribute>
+        </attributes>
+      </item>
+    </dataset>
+  </header>
+  <body>
+    <dataset id="Manifest">
+      <item type="Text" id="Title">
+        <value>MediaStream</value>
+      </item>
+      <item type="Text" id="Type">
+        <value>Template</value>
+      </item>
+      <item type="Text" id="Version">
+        <value>0.0.0001</value>
+      </item>
+      <item type="Text" id="Vendor">
+        <value>Instoremedia</value>
+      </item>
+      <item type="Text" id="Description">
+        <value>Media Stream</value>
+      </item>
+      <item type="Text" id="StartFile">
+        <value>MediaStream.dll</value>
+      </item>
+      <item type="Text" id="FileType">
+        <value>WPF Template (dll)</value>
+      </item>
+      <item type="Text" id="FileHandler">
+        <value>WPF Dll player</value>
+      </item>
+    </dataset>
+    <dataset id="Template">
+      <item type="Numeric" id="Duration" visualType="inputfield">
+        <value>10</value>
+        <attributes>
+          <attribute id="DisplayName">
+            <value>Duration (sec)</value>
+          </attribute>
+        </attributes>
+      </item>
+      <item type="Text" id="Transition" visualtype="dropdown">
+        <value>None</value>
+        <description>Transition;en|Övergång;sv</description>
+        <attributes>
+          <attribute id="DisplayName">
+            <value>Transition;en|Övergång;sv</value>
+          </attribute>
+          <attribute id="AvailableValues">
+            <options type="Text">
+              <option value="Fade">Fade;en|Toning;sv"</option>
+              <option value="None">None;en|Ingen;sv</option>
+            </options>
+          </attribute>
+          <attribute id="Duration">
+            <value>2000</value>
+          </attribute>
+        </attributes>
+      </item>
+      <item type="Text" id="DisplayName">
+        <value>MediaStream</value>
+      </item>
+      <item type="Text" id="Description">
+        <value>Media Stream</value>
+      </item>
+      <item type="Text" id="TransitionEffect">
+        <value>None</value>
+      </item>
+      <item type="Boolean" id="IsTransitionsEnabled">
+        <value>false</value>
+      </item>
+      <item type="Numeric" id="Duration">
+        <value>10</value>
+      </item>
+      <item type="Boolean" id="IsDurationEnabled">
+        <value>true</value>
+      </item>
+      <item type="Boolean" id="AutoDuration">
+        <value>false</value>
+      </item>
+      <item type="Boolean" id="IsAutoDurationOptionEnabled">
+        <value>false</value>
+      </item>
+      <item type="Boolean" id="IsActiveXHost">
+        <value>false</value>
+      </item>
+      <item type="Text" id="Id">
+        <value>34DF5D40-72DE-4A2B-8121-576FA017549C</value>
+      </item>
+    </dataset>
+    <TemplateItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <TemplateFilename>MediaStream.dll</TemplateFilename>
+      <TemplateName>MediaStream</TemplateName>
+      <DisplayName>MediaStream</DisplayName>
+      <Description>Media Stream</Description>
+      <TransitionEffect>None</TransitionEffect>
+      <IsTransitionsEnabled>false</IsTransitionsEnabled>
+      <Duration>10</Duration>
+      <IsDurationEnabled>true</IsDurationEnabled>
+      <AutoDuration>false</AutoDuration>
+      <IsAutoDurationOptionEnabled>false</IsAutoDurationOptionEnabled>
+      <IsActiveXHost>false</IsActiveXHost>
+      <Id>34DF5D40-72DE-4A2B-8121-576FA017549C</Id>
+      <Properties>
+        <Property xsi:type="TextProperty">
+          <Value>rtsp://192.168.2.39/live.sdp</Value>
+          <DisplayName>Stream URL</DisplayName>
+          <Key>TvUrl</Key>
+          <Advanced>false</Advanced>
+        </Property>
+        <Property xsi:type="TextProperty">
+          <Value>30</Value>
+          <DisplayName>Smart View Duration in seconds</DisplayName>
+          <Key>SmartViewDuration</Key>
+          <Advanced>true</Advanced>
+        </Property>
+      </Properties>
+    </TemplateItem>
+  </body>
+</input>
