@@ -29,7 +29,7 @@
   <body>
     <dataset id="Manifest">
       <item type="Text" id="Title">
-        <value>MediaStream</value>
+        <value>MediaStreamer</value>
       </item>
       <item type="Text" id="Type">
         <value>Template</value>
@@ -41,10 +41,10 @@
         <value>Instoremedia</value>
       </item>
       <item type="Text" id="Description">
-        <value>Media Stream</value>
+        <value>Media Streamer</value>
       </item>
       <item type="Text" id="StartFile">
-        <value>MediaStream.dll</value>
+        <value>MediaStreamer.dll</value>
       </item>
       <item type="Text" id="FileType">
         <value>WPF Template (dll)</value>
@@ -81,10 +81,10 @@
         </attributes>
       </item>
       <item type="Text" id="DisplayName">
-        <value>MediaStream</value>
+        <value>MediaStreamer</value>
       </item>
       <item type="Text" id="Description">
-        <value>Media Stream</value>
+        <value>Media Streamer</value>
       </item>
       <item type="Text" id="TransitionEffect">
         <value>None</value>
@@ -108,14 +108,14 @@
         <value>false</value>
       </item>
       <item type="Text" id="Id">
-        <value>34DF5D40-72DE-4A2B-8121-576FA017549C</value>
+        <value>E6210293-F937-462C-B646-1A5E08A6DCCE</value>
       </item>
     </dataset>
     <TemplateItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <TemplateFilename>MediaStream.dll</TemplateFilename>
-      <TemplateName>MediaStream</TemplateName>
-      <DisplayName>MediaStream</DisplayName>
-      <Description>Media Stream</Description>
+      <TemplateFilename>MediaStreamer.dll</TemplateFilename>
+      <TemplateName>MediaStreamer</TemplateName>
+      <DisplayName>MediaStreamer</DisplayName>
+      <Description>Media Streamer</Description>
       <TransitionEffect>None</TransitionEffect>
       <IsTransitionsEnabled>false</IsTransitionsEnabled>
       <Duration>10</Duration>
@@ -123,7 +123,7 @@
       <AutoDuration>false</AutoDuration>
       <IsAutoDurationOptionEnabled>false</IsAutoDurationOptionEnabled>
       <IsActiveXHost>false</IsActiveXHost>
-      <Id>34DF5D40-72DE-4A2B-8121-576FA017549C</Id>
+      <Id>E6210293-F937-462C-B646-1A5E08A6DCCE</Id>
       <Properties>
         <Property xsi:type="TextProperty">
           <Value>rtsp://192.168.2.39/live.sdp</Value>
